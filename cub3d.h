@@ -142,17 +142,17 @@ void	ft_sprites(t_all *all, double *ZBuffer);
 void	my_mlx_pixel_put(t_win *win, int x, int y, int color);
 int		ft_selecting_texture(t_all *all);
 void	ft_lodev_ray_casting(t_all *all);
-void	ft_declaring_DDA(t_all *all, int x);
-void	ft_calculate_step_and_initial_sideDist(t_all *all);
+void	ft_declaring_dda(t_all *all, int x);
+void	ft_calculate_step_and_initial_sidedist(t_all *all);
 void	ft_hit(t_all *all);
 void	ft_drawing_wall(t_all *all, int x);
 int		ft_pressing_key(int key, t_all *all);
 void	ft_get_data_addr_img(t_all *all);
 int		main(int argc, char **argv);
-void	ft_key_Left_Right_hook(t_all *all, int key, double oldDirX, \
+void	ft_key_left_right_hook(t_all *all, int key, double oldDirX, \
 															double oldPlaneX);
-void	ft_key_A_D_hook(t_all *all, int key);
-void	ft_key_W_S_hook(t_all *all, int key);
+void	ft_key_a_d_hook(t_all *all, int key);
+void	ft_key_w_s_hook(t_all *all, int key);
 void	ft_screenshot(t_all *all);
 int		ft_exit_game(void);
 void	ft_check_game_world_map(t_map *s_map, char **map);
