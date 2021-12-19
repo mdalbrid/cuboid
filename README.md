@@ -1,3 +1,3 @@
 # cuboid
 
-Мини игра наподобие Wolfenstein
+Мини игра по мотивам Wolfenstein
